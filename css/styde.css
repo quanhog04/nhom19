@@ -1,0 +1,275 @@
+body {
+    background-color: black;
+    width: Fixed (1,920px)px;
+    height: 100%;
+    padding: 24px 0px 0px 0px;
+    gap: 0px;
+    border-radius: 48px 0px 0px 0px;
+    opacity: 0px;
+    
+    
+}
+
+.class {
+    color: #EFE7D2;
+    position: absolute;
+    bottom: 20px;
+    left: 66px;
+}
+.logo a{
+    color: azure;
+}
+img{
+    border-radius: 16px;
+}
+.navbar {
+    background: #0A0B0A;
+    display: flex;
+    align-items: center;
+    position: absolute; /* Đặt thanh tác vụ ở vị trí tuyệt đối */
+    top: 48px;
+    left: 48px;
+    padding: 8px 0px 0px 0px;
+    border-radius: 12px 0px 0px 0px;
+}
+.class2 {
+    color:rgba(239, 231, 210, 1);
+    position: absolute; /* Đặt .class2 ở vị trí tuyệt đối */
+    right: 10%; /* Đẩy sang phải cùng */
+    top: 15%; /* Giữ một khoảng cách từ đầu trang */
+}
+.class3{
+    color:rgba(239, 231, 210, 1);
+    text-align: right;
+    right: 15%;
+    top:15%;
+    text-indent: 1.5em;
+    margin-top: 0;
+}
+
+
+.menu-icon i {
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.logo {
+    color:rgba(239, 231, 210, 1);
+    font-size: 24px;
+    /* margin-right: 5px; */
+}
+
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.menu ul li {
+    margin-left: 20px;
+}
+
+.menu ul li a {
+    color:rgba(239, 231, 210, 1);
+    text-decoration: none;
+}
+#reservation-form {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 0;
+}
+
+#reservation-form input,
+#reservation-form .row {
+    margin-bottom: 30px;
+}
+
+#reservation-form .row {
+    display: flex;
+    justify-content: space-between;
+}
+
+#reservation-form .row input {
+    flex-basis: 50%;
+}
+
+#reservation-form button {
+    background-color: rgba(239, 231, 210, 1);
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#reservation-form button:hover {
+    background-color: beige;
+}
+
+#reservation-form input[type="text"],
+#reservation-form input[type="tel"],
+#reservation-form input[type="email"],
+#reservation-form .row input[type="number"],
+#reservation-form .row input[type="date"],
+#reservation-form .row input[type="time"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    font-size: 1em;
+    background: rgba(24, 24, 24, 0.5);
+    color: white;
+}
+
+#reservation-form .row input[type="number"],
+#reservation-form .row input[type="date"],
+#reservation-form .row input[type="time"] {
+    width: 48%;
+    padding: 12px;
+    margin-right: 4%;
+    background: rgba(24, 24, 24, 0.5);
+}
+
+#reservation-form .row input[type="date"]::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+}
+
+.navbar p2{
+    border:#EFE7D2 solid 1px;
+    padding: 5px;
+    border-radius: 5px;
+}
+h1{
+    text-align: center;
+}
+.navbar2 {
+    display: flex; /* Sử dụng flexbox để căn chỉnh các phần tử con */
+    align-items: center; /* Căn giữa các mục theo chiều dọc */
+    position: absolute; /* Đặt vị trí tuyệt đối so với thẻ cha */
+    bottom: 0; /* Đặt vị trí ở cuối cùng của trang */
+    left: 25%; /* Đặt vị trí ở bên trái cùng của trang */
+    width: 100%; /* Chiều rộng tối đa */
+    padding: 8px; /* Đệm xung quanh nội dung */
+    border-radius: 12px 0px 0px 0px;
+}
+
+.navbar2 .tag {
+    width: 100%; /* Chiều rộng tối đa */
+    text-align: center; /* Căn giữa nội dung theo chiều ngang */
+}
+
+.navbar2 .tag ul {
+    list-style: none; /* Loại bỏ dấu đầu dòng mặc định */
+    margin: 0; /* Loại bỏ khoảng cách ngoài mặc định */
+    padding: 0; /* Loại bỏ đệm mặc định */
+    display: flex; /* Sử dụng flexbox để căn chỉnh các mục liền kề nhau */
+    justify-content: center; /* Căn các mục ở giữa theo chiều ngang */
+}
+
+.navbar2 .tag ul li {
+    margin: 0 10px; /* Khoảng cách ngang giữa các mục */
+    display: inline-block; /* Hiển thị các mục trên cùng một dòng */
+}
+
+.navbar2 .tag ul li a {
+    color: #EFE7D2; /* Màu chữ màu be sáng */
+    text-decoration: none; /* Loại bỏ gạch chân ở liên kết */
+}
+.navbar{
+    position:absolute;
+    background-color: black;
+    border-radius: 15px;
+    padding: 10px 10px;
+    margin-top: 30px;
+    margin-left: 30px;
+    z-index: 1;
+}
+a1{
+    border: bisque solid 1px;
+    border-radius: 5px;
+    padding: 5px 8px;
+}
+a2{
+    /* border: black solid 1px;
+    border-radius: 5px;*/
+    padding: 5px 10px; 
+}
+a{
+    text-decoration: none;
+    /* background: black; */
+    padding: 10px 10px;
+    color: bisque;
+    text-transform: uppercase;
+    text-align: center;
+    display: flex;
+    float: left;
+    border-style: none;
+    gap: 10px;
+}
+a:hover{
+    opacity: 0.5;
+    transition: 0,7s;
+}
+#grid{
+    position: relative;
+    width: 3%;
+    align-self: center;
+}
+
+.overlay {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    /* background-color: rgba(0,0,0, 0.9); */
+    overflow-y: hidden;
+    transition: 0.5s;
+}
+  
+.overlay-content {
+    border: 1px #efe7d2 solid;
+    border-radius: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    left: 2%;
+    width: 96%;
+    text-align: center;
+    margin-top: 30px;
+    padding: 150px 0 180px 0;
+}
+  
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #efe7d2;
+    display: block;
+    transition: 0.3s;
+}
+  
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+  
+.overlay .closebtn {
+    position: absolute;
+    z-index: 1;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+  
+@media screen and (max-height: 450px) {
+    .overlay {overflow-y: auto;}
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+    }
+}

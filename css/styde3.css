@@ -1,0 +1,472 @@
+body{
+    background: black;
+    color: bisque;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background: #0A0B0A;
+    display: flex;
+    align-items: center;
+    position: absolute; /* Đặt thanh tác vụ ở vị trí tuyệt đối */
+    top: 48px;
+    left: 48px;
+    padding: 8px 0px 0px 0px;
+    border-radius: 12px;
+}
+.container1{
+    position: absolute;
+    padding: 20px 0px 20px 20px;
+    /* top: 50px; */
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+a1{
+    border: bisque solid 1px;
+    border-radius: 5px;
+    padding: 5px 8px;
+}
+a2{
+    /* border: black solid 1px;
+    border-radius: 5px;*/
+    padding: 5px 10px; 
+}
+a{
+    text-decoration: none;
+    /* background: black; */
+    padding: 10px 10px;
+    color: bisque;
+    text-transform: uppercase;
+    text-align: center;
+    display: flex;
+    float: left;
+    border-style: none;
+    gap: 10px;
+}
+a:hover{
+    opacity: 0.5;
+    transition: 0,7s;
+}
+img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    object-fit: cover;
+    display: block;
+}
+#container{
+    border-radius: 16px;
+    overflow: hidden;
+    position: relative;
+    /* object-fit: cover; */
+    width: 50%;
+    height: 100%;
+    /* max-height: 727.2px; */
+}
+.class {
+    color: #EFE7D2;
+    position: absolute;
+    bottom: 20px;
+    left: 66px;
+    font-size:25px;
+}
+.text{
+    position: absolute;
+  top: 20px; /* Khoảng cách từ phía trên của màn hình */
+  left: 640px; /* Khoảng cách từ phải qua trái của màn hình */
+  width: 275px;
+    height: 275px; /* Chiều cao của ô vuông */
+  background-color: #000; /* Màu nền */
+  color: #fff; /* Màu chữ */
+  justify-content: center; /* Căn giữa theo chiều ngang */
+  align-items: center; /* Căn giữa theo chiều dọc */
+  border-radius: 16px; /* Bo tròn góc */
+  border: 1px solid rgba(239, 231, 210, 0.15); /* Viền bo màu vàng */
+}
+.text2{
+    position: absolute;
+    color: rgba(239, 231, 210, 1);
+    font-size: 16px;
+    top: 30px;
+    left: 60px;
+}
+#img001{
+    transform: rotateY(180deg);
+    top: 27px;
+    left: 20px;
+}
+#img002{
+    top: 27px;
+    left: 145px;
+}
+.h1{
+    position: absolute;
+    color:  rgba(239, 231, 210, 1);
+    top: 75px;
+    left: 15px;
+    font-size: 12px;
+}
+.h2{
+    position: absolute;
+    color:  rgba(239, 231, 210, 1);
+    top: 75px;
+    left: 200px;
+    font-size: 12px;
+}
+.h3{
+    position: absolute;
+    color:  rgba(239, 231, 210, 1);
+    top: 105px;
+    left: 15px;
+    font-size: 12px;
+}
+.h4{
+    position: absolute;
+    color:  rgba(239, 231, 210, 1);
+    top: 105px;
+    left: 200px;
+    font-size: 12px;
+}
+.h5{
+    position: absolute;
+    color:  rgba(239, 231, 210, 1);
+    top: 135px;
+    left: 15px;
+    font-size: 12px;
+}
+.h7{
+    position: absolute;
+    color:  rgba(239, 231, 210, 1);
+    top: 165px;
+    left: 15px;
+    font-size: 12px;
+}
+.h9{
+    position: absolute;
+    color:  rgba(239, 231, 210, 1);
+    top: 195px;
+    left: 15px;
+    font-size: 12px;
+}
+.h11{
+    position: absolute;
+    color:  rgba(239, 231, 210, 1);
+    top: 225px;
+    left: 15px;
+    font-size: 12px;
+}
+.h6{
+    position: absolute;
+    color:  rgba(239, 231, 210, 1);
+    top: 135px;
+    left: 200px;
+    font-size: 12px;
+}
+.h8{
+    position: absolute;
+    color:  rgba(239, 231, 210, 1);
+    top: 165px;
+    left: 200px;
+    font-size: 12px;
+}
+.h10{
+    position: absolute;
+    color:  rgba(239, 231, 210, 1);
+    top: 195px;
+    left: 200px;
+    font-size: 12px;
+}
+.h12{
+    position: absolute;
+    color:  rgba(239, 231, 210, 1);
+    top: 225px;
+    left: 200px;
+    font-size: 12px;
+}
+
+#img003{
+    top: 27px;
+    left: 30px;
+}
+#img004{
+    top: 49px;
+    left: -150px;
+}
+#img005{
+    top: 79px;
+    left: -350px;
+}
+#img006{
+    top: 109px;
+    left: -500px;
+}
+#img007{
+    top: 139px;
+    left: -700px;
+}
+#img008{
+    top: 169px;
+    left: -900px;
+}
+#img01{
+    width: 140px;
+    height: 135px;
+    border-radius: 16px;
+    margin-top: 13px;
+    left: 915px;
+}
+#img02{
+    width: 140px;
+    height: 135px;
+    border-radius: 16px;
+    bottom: -13px;
+    left:900px;
+}
+#img03{
+    width: 140px;
+    height: 135px;
+    border-radius: 16px;
+    top: 155px;
+    left: 595px;
+}
+#img04{
+    width: 140px;
+    height: 135px;
+    border-radius: 16px;
+    top: 155px;
+    left:580px;
+}
+#img0{
+    position: absolute;
+    top: 70px;
+    left: 980px;
+    width: 30px;
+    height: 30px;
+}
+#img05{
+    width: 275px;
+    height: 275px;
+    border-radius: 16px;
+    top: 295px;
+    left:-10px;
+}
+.text7{
+    position: absolute;
+  top: 305px; /* Khoảng cách từ phía trên của màn hình */
+  left: 925px; /* Khoảng cách từ phải qua trái của màn hình */
+  width: 275px;
+  height: 275px; /* Chiều cao của ô vuông */
+  background-color: #000; /* Màu nền */
+  color: #fff; /* Màu chữ */
+  justify-content: center; /* Căn giữa theo chiều ngang */
+  align-items: center; /* Căn giữa theo chiều dọc */
+  border-radius: 16px; /* Bo tròn góc */
+  border: 1px solid rgba(239, 231, 210, 0.15); /* Viền bo màu vàng */
+}
+.text8{
+    position: absolute;
+    color: rgba(239, 231, 210, 1);
+    font-size: 16px;
+    top: 30px;
+    left: 67px;
+}
+#img0001{
+    transform: rotateY(180deg);
+    top: 27px;
+    left: 20px;
+}
+#img0002{
+    top: 27px;
+    left: 145px;
+}
+.h111{
+    position: absolute;
+    color:  rgba(239, 231, 210, 1);
+    top: 90px;
+    left: 15px;
+    font-size: 12px;
+}
+.h33{
+    position: absolute;
+    color:  rgba(239, 231, 210, 1);
+    top: 150px;
+    left: 15px;
+    font-size: 12px;
+}
+.h55{
+    position: absolute;
+    color:  rgba(239, 231, 210, 1);
+    top: 190px;
+    left: 15px;
+    font-size: 12px;
+}
+.h77{
+    position: absolute;
+    color:  rgba(239, 231, 210, 1);
+    top: 230px;
+    left: 15px;
+    font-size: 12px;
+}
+.h22{
+    position: absolute;
+    color:  rgba(239, 231, 210, 1);
+    top: 90px;
+    left: 120px;
+    font-size: 16px;
+}
+.h44{
+    position: absolute;
+    color:  rgba(239, 231, 210, 1);
+    top: 145px;
+    left: 120px;
+    font-size: 16px;
+}
+.h66{
+    position: absolute;
+    color:  rgba(239, 231, 210, 1);
+    top: 185px;
+    left: 120px;
+    font-size: 16px;
+}
+#img0003{
+    top: 220px;
+    left: 55px;
+}
+#img0004{
+    top: 220px;
+    left: 60px;
+}
+#img0005{
+    top: 220px;
+    left: 65px;
+}
+.text12{
+    position: absolute;
+   top: 93.5%;
+   right: 20px;
+   width: 560px;
+   height: 41px;
+   background-color: #000; /* Màu nền */
+   color: #fff; /* Màu chữ */
+   justify-content: center; /* Căn giữa theo chiều ngang */
+   align-items: center; /* Căn giữa theo chiều dọc */
+   border-radius: 16px; /* Bo tròn góc */
+   border: 1px solid rgba(239, 231, 210, 0.15); /* Viền bo màu vàng */
+ }
+ .text14{
+    position: absolute;
+    font-size:12px;
+    left:105px;
+    
+}
+.text15{
+    position: absolute;
+    font-size:12px;
+    left:245px;
+    
+}
+.text16{
+    position: absolute;
+    font-size:12px;
+    left:350px;
+
+    
+}
+#img06{
+    left: 215px;
+}
+#img07{
+    left: 290px;
+}
+.hhh1 {
+    position:absolute;
+    top: 0;
+    right: 0;
+    width: 130px;
+    height: 25px;
+    padding: 12px 0px 0px 24px;
+    border-radius: 24px 0px 0px 0px;
+    gap: 32px;
+    background-color: black;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 545px;
+    left: 765px;
+  }
+  
+  .hhh2 {
+    position: absolute;
+    color: #EFE7D2;
+    font-size: 10px;
+    left:15px;
+  }
+  #img09{
+    left: 45px;
+}
+#grid{
+    position: relative;
+    width: 3%;
+    align-self: center;
+}
+
+.overlay {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    /* background-color: rgba(0,0,0, 0.9); */
+    overflow-y: hidden;
+    transition: 0.5s;
+}
+  
+.overlay-content {
+    border: 1px #efe7d2 solid;
+    border-radius: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    left: 2%;
+    width: 96%;
+    text-align: center;
+    margin-top: 30px;
+    padding: 150px 0 180px 0;
+}
+  
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #efe7d2;
+    display: block;
+    transition: 0.3s;
+}
+  
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+  
+.overlay .closebtn {
+    position: absolute;
+    z-index: 1;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+  
+@media screen and (max-height: 450px) {
+    .overlay {overflow-y: auto;}
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+    }
+}
