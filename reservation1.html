@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/styde.css">
+    <script src="./js/navbar.js"></script>
+    <script src="./js/validate.js"></script>
+
+</head>
+<div> <img src="./img/reservation.jpg" width="50%"></div>
+<body>
+    <div class="class">
+        <h1>BOOK<br>A TABLE</h1>
+    </div>
+    <div class="navbar">
+        <a href="#all_content" onclick="openNav()"><img src="./img/list.svg" alt="bars" style="border: 1px solid; border-radius: 5px;"></a>
+        <a href="home1.html"><img src="./img/Logo.svg" alt="Logo" style="border-radius: 0;"></a>
+        <a href="menu1.html"><a2>menu</a2></a>
+        <a href="about1.html"><a2>about</a2></a>
+        <a href="reservation1.html"><a1>book a table</a1></a>
+    </div>
+
+    <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+            <img id="grid" src="./img/Grid3.svg" alt="">
+            <a href="menu1.html">menu</a>
+            <a href="reservation1.html">reservation</a>
+            <a href="about1.html">about</a>
+            <a href="contact1.html">contact</a>
+            <a href="blog.html">blog</a>
+            <img id="grid" src="./img/Grid3.svg" alt="">
+        </div>
+    </div>
+    <div class="class2">
+        <h1>RESERVATION</h1>
+        <b1 class="class3">Secure your spot at Qitchen, where exceptional sushi and <br>
+            <center>a remarkable dining experience await.</center></b1>
+            <form id="reservation-form">
+                <input type="text" id="name" name="name" placeholder="Name" required>
+                <input type="tel" id="phone" name="phone" placeholder="Phone Number" required>
+                <input type="email" id="email" name="email" placeholder="Email" required>
+                <div class="row">
+                    <input type="number" id="guests" name="guests" placeholder="Guests" min="1" required>
+                    <input type="date" id="date" name="date" placeholder="Date" required>
+                    <input type="time" id="time" name="time" placeholder="Time" required>
+
+                </div>
+                <button type="submit">RESERVE</button>
+            </form>
+    </div>
+    <nav class="navbar2">
+        </div> 
+        <div class="tag">
+            <ul>
+                <li><a href="#"> PByawel Gola</a></li>
+                <li><a href="#">Licensing</a></li>
+                <li><a href="#"><p2>styleguide</p2></a></li>
+            </ul>
+        </div>
+        </nav>
+    
+</body>
+</html>
